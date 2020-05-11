@@ -29,15 +29,15 @@ class ViewController: UIViewController {
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         isFinishedTypingNumber = true
         
-        
         if let calcMethod = sender.currentTitle {
-            if calcMethod == "+/-" {
-                displayValue *= -1
-            } else if calcMethod == "AC" {
-                displayValue = 0
-            } else if calcMethod == "%" {
-                displayValue /= 100
+            
+            let calculationLogin = CalculatorLogic(number: displayValue)
+            
+            guard let result = calculationLogin.Calculate(symbol: calcMethod) else {
+                fatalError("the result of calcuation is nil")
             }
+            
+            displayValue = result
         }
     }
     
