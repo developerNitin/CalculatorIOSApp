@@ -1,7 +1,7 @@
 # Calculator
 > Calculator IOS App Developed With SwiftUI.
 
-[![Swift5 compatible][Swift5Badge]][Swift5Link]
+<a href="https://developer.apple.com/swift/" rel="nofollow"><img src="https://camo.githubusercontent.com/c71f82ee3309bc14cc904fb1a628903768e1ac39/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73776966742d352d6f72616e67652e7376673f7374796c653d666c6174" alt="Swift5 compatible" data-canonical-src="https://img.shields.io/badge/swift-5-orange.svg?style=flat" style="max-width:100%;"></a>
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
 <div> 
