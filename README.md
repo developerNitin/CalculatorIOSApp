@@ -2,5 +2,5 @@
 
 <div> 
 <label>logo:<label><br>
-<img></img>
+<img src="logo/Calculator.png"></img>
 </div>
