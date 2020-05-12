@@ -26,19 +26,18 @@ class ViewController: UIViewController {
         }
     }
     
-    private var calculationLogin = CalculatorLogic()
+    private var calculationLogic = CalculatorLogic()
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         isFinishedTypingNumber = true
         
-        calculationLogin.setNumber(displayValue)
+        calculationLogic.setNumber(displayValue)
         
         if let calcMethod = sender.currentTitle {
             
-            guard let result = calculationLogin.Calculate(symbol: calcMethod) else {
-                fatalError("the result of calcuation is nil")
-            }
-            displayValue = result
+            if let result = calculationLogic.Calculate(calcMethod) {
+                displayValue = result
+            } 
         }
     }
     
@@ -49,11 +48,12 @@ class ViewController: UIViewController {
                 displayLabel.text = numValue
                 isFinishedTypingNumber = false
             } else {
-                let isInt =  floor(displayValue) == displayValue
-                if !isInt {
-                    return
+                if numValue == "." {
+                    let isInt =  floor(displayValue) == displayValue
+                    if !isInt {
+                        return
+                    }
                 }
-                
                 displayLabel.text = displayLabel.text! + numValue
             }
         }
