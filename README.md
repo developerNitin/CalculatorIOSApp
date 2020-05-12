@@ -1,7 +1,7 @@
 # Calculator
 > Calculator IOS App Made With SwiftUI.
 
-[![Swift Version][swift-image]][swift-url]
+[![Swift5 compatible][Swift5Badge]][Swift5Link]
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
 <div> 
@@ -19,7 +19,7 @@
 ## Requirements
 
 - iOS 8.0+
-- Xcode 11.3.1
+- Xcode 11.0+
 
 ## Installation
 
