@@ -1,5 +1,5 @@
 # Calculator
-> Calculator IOS App Made With SwiftUI.
+> Calculator IOS App Developed With SwiftUI.
 
 [![Swift5 compatible][Swift5Badge]][Swift5Link]
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
@@ -10,7 +10,7 @@
 
 ## Features
 
-- [x] Fast Calculation
+- [x] Fast 
 - [x] Easy To Use
 - [x] Multiple Calculation
 - [x] Scientific
@@ -29,14 +29,14 @@ You can use [CocoaPods](http://cocoapods.org/) to install Project by adding it t
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'Calculator'
+pod 'CalculatorIOSApp'
 ```
 
 To get the full benefits import Project wherever you import UIKit
 
 ``` swift
 import UIKit
-import Calculator
+import CalculatorIOSApp
 ```
 #### Manually
 1. Download and drop ```Calculator.swift``` in your project.  
@@ -53,7 +53,7 @@ ez.detectScreenShot { () -> () in
 
 ## Contribute
 
-We would love you for the contribution to **Calculator**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **CalculatorIOSApp**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
